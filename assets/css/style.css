@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 15rem;
+}
+
+.logo {
+  color: #666;
+  font-size: 2rem;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.link {
+  color: #333;
+}
+
+.link:hover {
+  color: #337ab7;
+}
+
+.main {
+  background: url(../img/ocean.jpeg) center/cover no-repeat;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section {
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 5rem;
+}
+
+.section-text {
+  font-size: 1.15rem;
+  margin: 4rem 0 3rem 0;
+}
+
+.button-download {
+  border: 1px solid #fff;
+  padding: 1rem 3rem;
+}
+
+.button-read {
+  background: #745cf9;
+  border: 1px solid #745cf9;
+  padding: 1rem 4.5rem;
+}
+
+.button-read:hover {
+  background: #5234f9;
+  border-color: #5234f9;
+}
